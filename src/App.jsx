@@ -9,8 +9,11 @@ import styles from './App.module.css'
 function App() {
   return (
     <>
+      <a href="#main" className="skip-link">
+        Skip to content
+      </a>
       <Navbar />
-      <main className={styles.main}>
+      <main id="main" className={styles.main}>
         <section id="home" className={styles.section}>
           <Hero />
         </section>

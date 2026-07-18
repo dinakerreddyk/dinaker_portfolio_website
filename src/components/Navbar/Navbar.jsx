@@ -9,7 +9,7 @@ const links = [
 
 function Navbar() {
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navbar} aria-label="Primary">
       <a href="#home" className={styles.logo}>
         Dinaker Reddy
       </a>

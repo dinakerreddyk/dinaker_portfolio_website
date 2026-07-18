@@ -16,6 +16,7 @@ function Hero() {
         </a>
         <a href="/resume.pdf" className={styles.ctaSecondary} target="_blank" rel="noreferrer">
           Download Resume
+          <span className="visually-hidden"> (opens in new tab)</span>
         </a>
       </div>
     </div>

@@ -16,11 +16,13 @@ function ProjectCard({ project }) {
         {repoUrl && (
           <a href={repoUrl} target="_blank" rel="noreferrer">
             Code
+            <span className="visually-hidden"> (opens in new tab)</span>
           </a>
         )}
         {liveUrl && (
           <a href={liveUrl} target="_blank" rel="noreferrer">
             Live Demo
+            <span className="visually-hidden"> (opens in new tab)</span>
           </a>
         )}
       </div>

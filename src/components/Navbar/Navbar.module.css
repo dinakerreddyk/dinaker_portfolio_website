@@ -3,8 +3,10 @@
   top: 0;
   z-index: 100;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-sm) var(--space-lg);
   padding: var(--space-md) var(--space-lg);
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
@@ -19,7 +21,8 @@
 
 .links {
   display: flex;
-  gap: var(--space-lg);
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -38,9 +41,12 @@
 @media (max-width: 640px) {
   .navbar {
     padding: var(--space-sm) var(--space-md);
+    justify-content: center;
+    text-align: center;
   }
 
   .links {
-    gap: var(--space-md);
+    gap: var(--space-sm) var(--space-md);
+    justify-content: center;
   }
 }
