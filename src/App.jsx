@@ -1,5 +1,9 @@
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Hero from './components/Hero/Hero'
+import About from './components/About/About'
+import ProjectsGrid from './components/ProjectsGrid/ProjectsGrid'
+import Contact from './components/Contact/Contact'
 import styles from './App.module.css'
 
 function App() {
@@ -8,16 +12,16 @@ function App() {
       <Navbar />
       <main className={styles.main}>
         <section id="home" className={styles.section}>
-          <h1>Hero section placeholder</h1>
+          <Hero />
         </section>
         <section id="about" className={styles.section}>
-          <h2>About section placeholder</h2>
+          <About />
         </section>
         <section id="projects" className={styles.section}>
-          <h2>Projects section placeholder</h2>
+          <ProjectsGrid />
         </section>
         <section id="contact" className={styles.section}>
-          <h2>Contact section placeholder</h2>
+          <Contact />
         </section>
       </main>
       <Footer />

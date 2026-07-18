@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.text {
+  color: var(--color-text-muted);
+  max-width: 40ch;
+}
+
+.email {
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  border-radius: var(--radius);
+  font-size: var(--font-size-sm);
+  transition: background 0.2s;
+}
+
+.email:hover {
+  background: var(--color-primary-hover);
+}
