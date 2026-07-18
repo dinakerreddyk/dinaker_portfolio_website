@@ -1,26 +1,29 @@
 const projects = [
   {
-    id: 'project-one',
-    title: 'Project One',
-    description: 'Replace with a short description of what this project does and the problem it solves.',
-    tech: ['React', 'Node.js'],
-    repoUrl: 'https://github.com/',
+    id: 'india-imports-exports-dashboard',
+    title: 'India Imports & Exports Dashboard',
+    description:
+      'Integrated diverse data sources to provide a comprehensive view of India’s import/export activities.',
+    tech: ['Tableau', 'Excel'],
+    repoUrl: '',
     liveUrl: '',
   },
   {
-    id: 'project-two',
-    title: 'Project Two',
-    description: 'Replace with a short description of what this project does and the problem it solves.',
-    tech: ['Python', 'SQL'],
-    repoUrl: 'https://github.com/',
+    id: 'fifa-world-cup-2022-analysis',
+    title: 'FIFA World Cup 2022 Analysis',
+    description:
+      'Used SQL to analyze FIFA World Cup 2022 data, extracting insights on match statistics, player performance, and team strategies.',
+    tech: ['Microsoft SQL Server', 'SQL'],
+    repoUrl: '',
     liveUrl: '',
   },
   {
-    id: 'project-three',
-    title: 'Project Three',
-    description: 'Replace with a short description of what this project does and the problem it solves.',
-    tech: ['JavaScript', 'CSS'],
-    repoUrl: 'https://github.com/',
+    id: 'disease-prediction-drug-recommendation',
+    title: 'Disease Prediction & Drug Recommendation',
+    description:
+      'Built a disease prediction model using Python and scikit-learn with 90% accuracy, deployed via Flask to recommend personalized drug treatments based on patient symptoms.',
+    tech: ['Python', 'scikit-learn', 'Flask'],
+    repoUrl: '',
     liveUrl: '',
   },
 ]

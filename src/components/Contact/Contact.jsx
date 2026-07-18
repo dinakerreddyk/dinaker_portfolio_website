@@ -5,11 +5,11 @@ function Contact() {
     <div className={styles.contact}>
       <h2>Get In Touch</h2>
       <p className={styles.text}>
-        Replace this with a short note inviting people to reach out, and
-        update the email address below to your own.
+        I'm always open to discussing data engineering roles, projects,
+        or collaboration. Feel free to reach out.
       </p>
-      <a href="mailto:you@example.com" className={styles.email}>
-        you@example.com
+      <a href="mailto:k.dinakerreddy9@gmail.com" className={styles.email}>
+        k.dinakerreddy9@gmail.com
       </a>
     </div>
   )

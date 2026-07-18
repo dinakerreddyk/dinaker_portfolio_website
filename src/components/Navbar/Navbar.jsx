@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <a href="#home" className={styles.logo}>
-        Your Name
+        Dinaker Reddy
       </a>
       <ul className={styles.links}>
         {links.map((link) => (

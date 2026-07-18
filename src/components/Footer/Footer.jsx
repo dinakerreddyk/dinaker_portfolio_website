@@ -1,9 +1,9 @@
 import styles from './Footer.module.css'
 
 const socialLinks = [
-  { href: 'https://github.com/', label: 'GitHub' },
-  { href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { href: 'mailto:you@example.com', label: 'Email' },
+  { href: 'https://github.com/dinaker09', label: 'GitHub' },
+  { href: 'https://linkedin.com/in/dinaker09', label: 'LinkedIn' },
+  { href: 'mailto:k.dinakerreddy9@gmail.com', label: 'Email' },
 ]
 
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <p>&copy; {year} Your Name. All rights reserved.</p>
+      <p>&copy; {year} Dinaker Reddy. All rights reserved.</p>
       <ul className={styles.social}>
         {socialLinks.map((link) => (
           <li key={link.label}>
